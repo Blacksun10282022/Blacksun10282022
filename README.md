@@ -20,7 +20,7 @@ I build practical software projects around AI-assisted application delivery: tur
 - Agentic application workflows using LLM tooling, local automation and retrieval-style patterns
 - Desktop AI tooling with Electron + Python service layers
 - API / UAT / release-readiness checks, bug reproduction and operational runbooks
-- Reproducible machine-learning experiments with clear evaluation outputs
+- Reproducible deep-learning / neural-symbolic experiments with clear evaluation outputs
 
 ## Tech Stack
 
@@ -62,7 +62,7 @@ I build practical software projects around AI-assisted application delivery: tur
 | Project | Stack / Area | What it Shows |
 |---|---|---|
 | [Local Desktop AI Companion Luna](https://github.com/Blacksun10282022/Local-desktop-AI-companion-Luna) | Electron, FastAPI, local / cloud LLM routing, voice tooling | Desktop AI application structure, Python service layer, local-first workflow thinking |
-| [KAN Symbolic Signal Regression](https://github.com/Blacksun10282022/kan-symbolic-signal-regression) | KAN, PySR, symbolic regression, experiment design | Research-style ML workflow, reproducible evaluation and model comparison |
+| [KAN Symbolic Signal Regression](https://github.com/Blacksun10282022/kan-symbolic-signal-regression) | KAN, PySR, PyTorch, symbolic regression, experiment design | Deep-learning neural-symbolic workflow, reproducible evaluation and model comparison |
 | [RPMCNN](https://github.com/Blacksun10282022/RPMCNN) | Computer vision, CNN training, model export | Training pipeline, evaluation artifacts and deployment-oriented export paths |
 | [PathMNIST Image Classification](https://github.com/Blacksun10282022/PathMNIST-Image-Classification) | Python, RandomForest, Keras CNN | Baseline comparison, small-image classification and reportable metrics |
 | [Rice Classification](https://github.com/Blacksun10282022/Rice_Classification) | Jupyter Notebook, image classification | Data preprocessing, training workflow and evaluation output |
