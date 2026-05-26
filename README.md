@@ -81,3 +81,4 @@ I am focused on graduate and early-career roles where software delivery, AI tool
 
 - GitHub: https://github.com/Blacksun10282022
 - LinkedIn: https://www.linkedin.com/in/heng-xu-557892320
+- Portfolio PDF: https://github.com/Blacksun10282022/Blacksun10282022/blob/main/portfolio/Heng_Xu_Portfolio_2026.pdf
