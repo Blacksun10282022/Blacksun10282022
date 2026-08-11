@@ -1,6 +1,3 @@
-Master of Computer Science (Data Science and AI), University of Sydney, Jul 2026.
-Available on one week's notice.
-
 I build Python backend and model-backed systems with explicit schemas, tests,
 deployment checks and evidence-backed evaluation. My focus is turning ambiguous
 requirements into testable services, deterministic workflows and maintainable
