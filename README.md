@@ -1,7 +1,3 @@
-# Heng Xu
-
-Backend & AI Engineering | Sydney, NSW
-
 Master of Computer Science (Data Science and AI), University of Sydney, Jul 2026.
 Available on one week's notice.
 
