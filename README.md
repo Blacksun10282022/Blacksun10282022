@@ -1,3 +1,5 @@
+# Backend & AI Engineering Projects
+
 I build Python backend and model-backed systems with explicit schemas, tests,
 deployment checks and evidence-backed evaluation. My focus is turning ambiguous
 requirements into testable services, deterministic workflows and maintainable
@@ -34,4 +36,3 @@ Repository: https://github.com/Blacksun10282022/Local-desktop-AI-companion-Luna
 ## Links
 
 - Portfolio: https://github.com/Blacksun10282022/Blacksun10282022/blob/main/portfolio/Heng_Xu_Portfolio_2026.pdf
-- LinkedIn: https://www.linkedin.com/in/heng-xu-557892320
