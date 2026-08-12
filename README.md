@@ -35,4 +35,4 @@ Repository: https://github.com/Blacksun10282022/Local-desktop-AI-companion-Luna
 
 ## Links
 
-- Portfolio: https://github.com/Blacksun10282022/Blacksun10282022/blob/main/portfolio/Heng_Xu_Portfolio_2026.pdf
+- Portfolio: https://github.com/Blacksun10282022/Blacksun10282022/blob/main/portfolio/backend-ai-engineering-portfolio.pdf
