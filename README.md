@@ -1,38 +1,36 @@
-# Backend & AI Engineering Projects
+# Heng (Kyo) Xu · Graduate AI Engineer, Sydney
 
-I build Python backend and model-backed systems with explicit schemas, tests,
-deployment checks and evidence-backed evaluation. My focus is turning ambiguous
-requirements into testable services, deterministic workflows and maintainable
-technical handover.
+I build Python services around language models: agent workflows, retrieval, model evaluation and serving, and the guardrails that keep AI coding agents inside the rules they were given.
 
-## Core Stack
+## Selected work
 
-Python · FastAPI · Pydantic · Django/DRF · SQL · PyTorch · pytest · Docker ·
-Linux · GitHub Actions · Git · YAML/JSON Schema
+### EntryPlug: governance for AI coding agents
+**Public** · [github.com/Blacksun10282022/entryplug](https://github.com/Blacksun10282022/entryplug)
 
-## Selected Engineering Work
+A CLI and MCP server that lets an AI coding agent (Claude Code or Codex) work from one person's written rules and notes, while keeping it from changing them or sending anything out in their name unasked.
 
-### 1. AI Hub PII Redaction Service — USYD Capstone (High Distinction)
+- Protected files are enforced in code, not in the prompt: a Git pre-commit hook plus Claude Code deny rules; changes go through an owner-approved request.
+- A PreToolUse hook refuses the common outbound write commands (`git push`, HTTP POST, mail, publish tools), verified live in both Claude Code and Codex sessions.
+- Read-only MCP search over the notes (SQLite FTS5, Chinese and English): recall@10 0.98 on a public 50-case gold set; 134 unit tests.
 
-Client-delivered 8-person project covering FastAPI/Pydantic services, policy-based
-redaction, OCR/file ingestion, CI/testing, on-device deployment validation and
-structured model evaluation. The repository is private; see the public case study
-in my portfolio.
+### AI-Powered PII Detection and Redaction Service: USYD capstone (High Distinction)
+**Public portfolio edition** · [github.com/Blacksun10282022/AI-Powered-PII-Detection-and-Redaction-Service](https://github.com/Blacksun10282022/AI-Powered-PII-Detection-and-Redaction-Service)
 
-### 2. Governed Knowledge & Workflow Tool (LLM-KB)
+An 8-person, client-delivered project; I led backend and deployment.
 
-Python, SQLite, YAML/JSON Schema, deterministic regeneration, policy-gated intake,
-append-only audit manifests, doctor checks and CLI/MCP interfaces.
+- FastAPI service for text, DOCX, PDF and images (OCR), with versioned masking policies and structured entity spans.
+- Fine-tuned student model: F1 0.9775 against the teacher's 0.9505 on a 14,000-row holdout, compared through vLLM-served inference.
+- Docker and GitHub Actions CI; client deployment validated on an on-prem DGX Spark.
 
-Private repository; a guided walkthrough is available. See the public portfolio case study.
+### Luna: local desktop AI companion
+[github.com/Blacksun10282022/Local-desktop-AI-companion-Luna](https://github.com/Blacksun10282022/Local-desktop-AI-companion-Luna)
 
-### 3. Luna — Local Desktop AI Assistant
+Electron + FastAPI, llama.cpp-served Qwen2 models, local/cloud fallback, startup orchestration and health checks.
 
-Electron + FastAPI, llama.cpp-served Qwen2 models, local/cloud fallback, startup
-orchestration, health checks, configuration validation and portable data isolation.
+## Stack
 
-Repository: https://github.com/Blacksun10282022/Local-desktop-AI-companion-Luna
+Python · SQL · FastAPI · Pydantic · pytest · PyTorch · RAG · MCP · vLLM · PostgreSQL / pgvector · DuckDB · Docker · AWS · Terraform · GitHub Actions · Claude Code · Codex
 
-## Links
+## Contact
 
-- Portfolio: https://github.com/Blacksun10282022/Blacksun10282022/blob/main/portfolio/backend-ai-engineering-portfolio.pdf
+[LinkedIn](https://linkedin.com/in/heng-xu-557892320)
